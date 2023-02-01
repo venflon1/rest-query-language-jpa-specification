@@ -1,0 +1,11 @@
+Try some combinations of Search Rest Api for User Resources:
+
+	- GET http://localhost:8080/users/search?q=lastname_LIKE_ssi,age_GTE_49
+	
+	- GET http://localhost:8080/users/search?q=lastname_LIKE_ssi,age_LT_49
+	
+	- GET http://localhost:8080/users/search?q=firstname_LIKE_n,username_EQ_Tanini
+	
+	- GET http://localhost:8080/users/search?q=lastname_NEQ_Rossi,username_LIKE_ini
+	
+	- http://localhost:8080/users/search?q=lastname_LIKE_ssi,age_LT_49*OR
